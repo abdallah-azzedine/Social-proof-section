@@ -13,7 +13,7 @@ header
 {
     display: grid;
     height: 90vh;
-    width: 1440px;
+    width: 1200px;
     grid-template-columns: repeat(150px , 6) ;
     grid-template-rows: 35vh 40vh;
     background-color: hsl(0, 0%, 100%);
@@ -53,17 +53,14 @@ section:nth-child(5)
 section:nth-child(3),section:nth-child(4),section:nth-child(5)
 {
     background-color:hsl(300, 43%, 22%);
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
     border-radius: 10px;
     color:  hsl(0, 0%, 100%);
     font-weight: 100;
     font-family: 'Lexend Deca', sans-serif;  
 }
-section:nth-child(3)> p,section:nth-child(4)> p,section:nth-child(5) > p
-{
-    margin: 50px;
-}
+
 section:nth-child(1) p
 {
     width: 450px;
@@ -74,7 +71,7 @@ section h3:nth-child(3)
     position: relative;
     display: inline-block;
     margin-left: 100px;
-    left: 25px;
+    left: 5px;
     font-size: 15px;
     font-weight: lighter;
 }
@@ -96,12 +93,13 @@ p
     color: hsl(303, 10%, 53%);
     line-height: 25px;
     font-family: 'Lexend Deca', sans-serif;
+    margin: 35px 25px;
 }
 .img
 { 
     position: relative;
     border-radius: 50%;
-    width: 70px;
+    width: 50px;
     top: 40px;
     left: 0px;
     margin-left: 30px;
@@ -143,7 +141,7 @@ h1,div
 }
 h1
 {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 
