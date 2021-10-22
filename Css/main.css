@@ -145,7 +145,7 @@ h1
     font-size: 40px;
 }
 
-// mobile
+
 @media(max-width: 376px) and (min-width: 100px)
 {
     header
