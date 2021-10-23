@@ -155,7 +155,7 @@ h1
     display: grid;
     width: 374px;
     grid-template-columns: 360px ;
-    grid-template-rows: 400px 320px 300px 300px 300px;
+    grid-template-rows: 400px 420px 300px 300px 300px;
     background-color: hsl(0, 0%, 100%);
     justify-content: center;
     margin: 0;
@@ -169,10 +169,23 @@ h1
 div 
 {
     display: inline-block;
+    height: 80px;
+    
+  
+
+    
 }
 div img
 {
+    display: inline-block;
+    
     margin-left:2px;  
+    
+    margin-bottom: 50px;
+    padding: 0;
+    position: relative;
+    top: 15px;
+    
 }
 section,div,h1
 {
@@ -182,7 +195,9 @@ section,div,h1
 div > p
 {
     display: block;
-    padding: 0; 
+    position: relative;
+    top: -45px;
+   
 }
 div:nth-child(1)
 {
@@ -198,9 +213,12 @@ margin-left: 0;
 }
 section:nth-child(1) p 
 {
+    position: relative;
+    display: block;
     padding: 20px;
     margin: 0px;
     width: 340px;
+    
 }
 section:nth-child(1)
 {
